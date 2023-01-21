@@ -12,7 +12,7 @@ const { expressjwt: jwt } = require('express-jwt');//ใช้ตรวจสอ
 
 //console.log(process.env)
 
-///Connect Cloud Database ---------------------------------------------
+///Connect Cloud Database --------------------------------------------
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.CONNECT_DB, {
     useNewUrlParser: true,
