@@ -19,7 +19,7 @@ mongoose.connect(process.env.CONNECT_DB, {
     useUnifiedTopology: false,
 })
     .then(function () {
-        return console.log("*********** เชื่อมต่อฐานข้อมูล On Cloud เรียบร้อย *************")
+        return console.log("********** เชื่อมต่อฐานข้อมูล On Cloud เรียบร้อย *************")
     })
     .catch(function (error) {
 
